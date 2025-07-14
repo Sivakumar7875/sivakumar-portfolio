@@ -68,7 +68,12 @@ export default function Hero() {
             </Button>
             <Button 
               variant="outline"
-              onClick={() => window.open('/resume.pdf', '_blank')}
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/resume.pdf';
+                link.download = 'Sivakumar_Godugu_Resume.pdf';
+                link.click();
+              }}
               className="bg-white text-primary border-2 border-primary px-8 py-3 rounded-lg hover:bg-primary hover:text-white transition-colors"
             >
               Download Resume
