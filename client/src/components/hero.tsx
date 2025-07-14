@@ -8,8 +8,12 @@ export default function Hero() {
       <div className="container mx-auto px-6 py-24">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           {/* Professional Avatar */}
-          <div className="w-48 h-48 mx-auto mb-8 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center shadow-lg">
-            <User className="text-6xl text-white" size={96} />
+          <div className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden shadow-lg border-4 border-white">
+            <img 
+              src="/profile.jpeg" 
+              alt="Sivakumar Godugu - Professional Photo" 
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold text-secondary mb-6">
