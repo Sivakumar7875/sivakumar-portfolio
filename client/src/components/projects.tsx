@@ -77,7 +77,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="py-20 bg-gray-50/60 backdrop-blur-sm">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-secondary mb-12 text-center">Featured Projects</h2>

@@ -4,7 +4,7 @@ import { scrollToSection } from "@/lib/utils";
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-50/70 to-blue-50/70 backdrop-blur-sm">
       <div className="container mx-auto px-6 py-24">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           {/* Professional Avatar */}
