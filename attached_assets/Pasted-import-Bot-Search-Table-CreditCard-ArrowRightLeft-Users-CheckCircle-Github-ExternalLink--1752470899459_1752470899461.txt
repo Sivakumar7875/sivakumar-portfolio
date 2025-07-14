@@ -1,4 +1,4 @@
-import { Bot, Search, Table, CreditCard, ArrowRightLeft, Users, CheckCircle, Github } from "lucide-react";
+import { Bot, Search, Table, CreditCard, ArrowRightLeft, Users, CheckCircle, Github, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Projects() {
@@ -9,7 +9,8 @@ export default function Projects() {
       icon: <Bot className="text-4xl text-white" />,
       gradient: "from-primary to-accent",
       technologies: ["Python", "Streamlit", "Gemini API", "Stable Diffusion"],
-      github: "https://github.com/Sivakumar7875/NexaAI"
+      github: "#",
+      demo: "#"
     },
     {
       title: "Agentic RAG Chatbot",
@@ -17,7 +18,8 @@ export default function Projects() {
       icon: <Search className="text-4xl text-white" />,
       gradient: "from-green-500 to-blue-500",
       technologies: ["Python", "OpenAI GPT-4o", "LangChain", "ChromaDB"],
-      github: "https://github.com/Sivakumar7875/Agentic_RAG_Chatbot"
+      github: "#",
+      demo: "#"
     },
     {
       title: "Smart Chain Agents",
@@ -25,7 +27,8 @@ export default function Projects() {
       icon: <Table className="text-4xl text-white" />,
       gradient: "from-purple-500 to-pink-500",
       technologies: ["Python", "LangGraph", "Groq LLM", "Tavily"],
-      github: "https://github.com/Sivakumar7875/Smart-Chain-Agents"
+      github: "#",
+      demo: "#"
     }
   ];
 
@@ -113,6 +116,13 @@ export default function Projects() {
                         onClick={() => window.open(project.github, '_blank')}
                       >
                         <Github size={16} className="mr-1" /> View Code
+                      </Button>
+                      <Button 
+                        variant="link" 
+                        className="text-primary hover:text-blue-700 text-sm p-0 h-auto"
+                        onClick={() => window.open(project.demo, '_blank')}
+                      >
+                        <ExternalLink size={16} className="mr-1" /> Live Demo
                       </Button>
                     </div>
                   </div>
