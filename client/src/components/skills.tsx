@@ -11,31 +11,49 @@ export default function Skills() {
     {
       icon: <Bot className="text-2xl text-primary" />,
       title: "AI/ML & Data Science",
-      skills: ["Generative AI", "LLMs", "NLP", "Deep Learning", "RAG", "Vector Databases"],
+      skills: ["Generative AI", "Agentic AI Systems", "Large Language Models (LLMs)", "Prompt Engineering", "Fine-tuning", "NLP", "Deep Learning", "Regression Models", "Data Mining", "Data Analysis", "Retrieval-Augmented Generation (RAG)", "Vector Databases (Chroma)"],
       color: "green"
     },
     {
       icon: <Layers className="text-2xl text-primary" />,
       title: "Frameworks & Libraries",
-      skills: ["LangChain", "LangGraph", "Streamlit", "FastAPI", "Flask"],
+      skills: ["PyTorch", "TensorFlow", "Transformers", "Hugging Face", "LangChain", "LangChain Agents", "LangGraph", "Microsoft Autogen", "Pandas", "NumPy"],
       color: "purple"
     },
     {
-      icon: <Cloud className="text-2xl text-primary" />,
-      title: "Cloud & Infrastructure",
-      skills: ["Microsoft Azure", "Linux", "Docker", "Git"],
-      color: "orange"
+      icon: <Cpu className="text-2xl text-primary" />,
+      title: "Generative AI Technologies & Tools",
+      skills: ["OpenAI", "Google Gemini", "Groq"],
+      color: "violet"
     },
     {
       icon: <Database className="text-2xl text-primary" />,
-      title: "Databases",
-      skills: ["MySQL", "Snowflake", "Oracle", "Vertica", "Teradata"],
-      color: "red"
+      title: "Data Engineering & Reporting",
+      skills: ["ETL Process Automation", "Data Warehousing", "Data Integration", "Data Quality Assurance", "Data Cleaning", "Microsoft Excel"],
+      color: "green"
     },
     {
-      icon: <ArrowRightLeft className="text-2xl text-primary" />,
-      title: "ETL & Data Tools",
-      skills: ["Informatica", "IBM DataStage", "Infoworks", "JIRA"],
+      icon: <Server className="text-2xl text-primary" />,
+      title: "Databases",
+      skills: ["MySQL", "Snowflake", "Oracle", "Vertica", "Teradata"],
+      color: "blue"
+    },
+    {
+      icon: <Cloud className="text-2xl text-primary" />,
+      title: "Cloud & DevOps",
+      skills: ["Microsoft Azure", "Docker", "Linux", "Git", "Github"],
+      color: "orange"
+    },
+    {
+      icon: <Code2 className="text-2xl text-primary" />,
+      title: "Application Development",
+      skills: ["Streamlit", "Flask", "FastAPI"],
+      color: "rose"
+    },
+    {
+      icon: <ClipboardList className="text-2xl text-primary" />,
+      title: "Workflow & Project Management",
+      skills: ["Agile Methodologies", "JIRA", "Tivoli Workload Scheduler (TWS)"],
       color: "yellow"
     }
   ];
