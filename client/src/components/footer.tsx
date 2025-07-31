@@ -29,7 +29,7 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-4">Sivakumar Godugu</h3>
-          <p className="text-gray-400 mb-6">AI Enthusiast & Data Professional</p>
+          <p className="text-gray-400 mb-6">AI Engineer & Data Professional</p>
           <div className="flex justify-center space-x-6 mb-8">
             {socialLinks.map((link, index) => (
               <a
