@@ -1,6 +1,7 @@
 [build]
-  command = "npm install && npm run build"
+  base = "."
   publish = "dist"
+  command = "npm run build:static"
 
 [[redirects]]
   from = "/*"
