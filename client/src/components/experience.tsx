@@ -3,9 +3,9 @@ import { CheckCircle } from "lucide-react";
 export default function Experience() {
   const experiences = [
     {
-      title: "Generative AI Enthusiast",
+      title: "Generative AI Engineer",
       company: "Amdocs Development Centre, Pune, India",
-      duration: "1 year",
+      duration: "Jul 2024 – Present",
       color: "primary",
       achievements: [
         "Built AI-powered applications using GPT-4o, Gemini, LangChain, and Streamlit",
@@ -18,7 +18,7 @@ export default function Experience() {
     {
       title: "DWH/BI Test Engineer",
       company: "Amdocs Development Centre, Pune, India",
-      duration: "2.7 years",
+      duration: "Oct 2021 – June 2024",
       color: "accent",
       achievements: [
         "Validated ETL workflows and BI reporting systems in telecom domain for global client AT&T",
