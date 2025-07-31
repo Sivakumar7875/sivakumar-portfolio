@@ -20,10 +20,10 @@ export default function Hero() {
             Sivakumar Godugu
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            AI Enthusiast & Data Professional
+            AI Engineer & Data Professional
           </p>
           <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-            Bridging the gap between traditional data warehousing and cutting-edge AI solutions with 3.7 years of experience in Generative AI development and DWH/BI testing.
+            AI Engineer with 3.9 years of experience, blending deep expertise in Data Warehousing and ETL testing with hands-on development of Generative AI applications.
           </p>
           
           {/* Contact Info */}
