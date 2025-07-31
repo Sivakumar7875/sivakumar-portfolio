@@ -10,10 +10,10 @@ export default function About() {
             <div className="animate-fade-in">
               <h3 className="text-2xl font-semibold text-secondary mb-4">Professional Summary</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Results-driven AI enthusiast and Data Professional with 3.7 years of experience in Generative AI development and DWH/BI testing. Built and deployed AI applications using GPT-4o, LangChain and Streamlit, focusing on RAG workflows, intelligent agents, and multi-modal interfaces.
+                AI Engineer with 3.9 years of experience, specializing in Generative AI applications and enterprise data systems. Skilled in designing and deploying scalable AI solutions using Python, GPT-4o, LangChain, LangGraph, Streamlit, and ChromaDB.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Previously worked as a DWH/BI Test Engineer for 2.7 years, validating ETL pipelines, data integration, and BI systems using tools like Oracle, Snowflake, Vertica, Informatica, and IBM DataStage.
+                Expert in Retrieval-Augmented Generation (RAG), agentic reasoning, and multimodal systems. Strong background in validating enterprise data systems using Informatica, IBM DataStage, Snowflake, Oracle, and Teradata.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Known for delivering scalable, automation-driven solutions that bridge data integrity with modern AI capabilities.
